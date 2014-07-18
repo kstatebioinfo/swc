@@ -41,6 +41,7 @@ What would be the output of the following command be?
 
 ```
 grep -c "AA" test.fasta
+```
 
 A) 5
 B) 2
