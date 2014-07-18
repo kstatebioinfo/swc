@@ -44,8 +44,11 @@ grep -c "AA" test.fasta
 ```
 
 A) 5
+
 B) 2
+
 C) 3
+
 D) I don't know
 
 ## Code challenge:
