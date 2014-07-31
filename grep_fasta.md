@@ -40,6 +40,14 @@ $ grep -c "n" test.fasta
 What would be the output of the following command be?
 
 ```
+$head test.fasta
+>seq1
+ATCGATCGCnTCGGGTACT
+TCAGnAAAATGCTCTGATC
+TCAG
+>seq2
+TGCGATCCCTACGTCATCA
+AAATCGCTAGnnTCA
 grep -c "AA" test.fasta
 ```
 
