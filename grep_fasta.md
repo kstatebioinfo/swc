@@ -57,7 +57,9 @@ B) 2
 
 C) 3
 
-D) I don't know
+D) 
+TCAGnAAAATGCTCTGATC
+AAATCGCTAGnnTCA
 
 ## Code challenge:
 Given what you know about fasta file format, write a command with `grep` using the `-c` flag that will return the number of sequences in each fasta file in `~/class/fasta`.
