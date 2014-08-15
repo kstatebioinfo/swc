@@ -58,7 +58,9 @@ B) 2
 C) 3
 
 D) 
+
 TCAGnAAAATGCTCTGATC
+
 AAATCGCTAGnnTCA
 
 ## Code challenge:
