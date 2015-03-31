@@ -1,7 +1,7 @@
 Grep and fasta files
 ====================
 
-Each sequence in a fasta file begins with a header line (">" followed by a sequence id). Sequence data follows and is usually wrapped (making multiple lines).
+Each sequence in a FASTA file begins with a header line (`>` followed by an optional sequence id). **Note that the optional sequence id or header can using any characters. However the `>` symbol is required in FASTA format.** Sequence data follows and is usually wrapped (making multiple lines).
 
 Here is a simple example of a fasta file called `test.fasta`.
 
@@ -40,12 +40,12 @@ $ grep -c "n" test.fasta
 What would be the output of the following command be?
 
 ```
-$head test.fasta
->seq1
+$cat test.fasta
+>my_header1
 ATCGATCGCnTCGGGTACT
 TCAGnAAAATGCTCTGATC
 TCAG
->seq2
+>my_header2
 TGCGATCCCTACGTCATCA
 AAATCGCTAGnnTCA
 grep -c "AA" test.fasta
@@ -64,7 +64,7 @@ TCAGnAAAATGCTCTGATC
 AAATCGCTAGnnTCA
 
 ## Code challenge:
-Given what you know about fasta file format, write a command with `grep` using the `-c` flag that will return the number of sequences in each fasta file in `~/class/fasta`.
+Given what you know about fasta file format, write a command with `grep` using the `-c` flag that will return the number of sequences in each FASTA file in `~/class/fasta`.
 
 Number of sequences in each file:
 
